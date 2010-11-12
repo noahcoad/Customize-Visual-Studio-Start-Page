@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartPage03", "StartPage03\StartPage03\StartPage03.csproj", "{42FDB044-376A-4B0A-B536-8B39D6B112F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartPage03Control", "StartPage03\StartPage03Control\StartPage03Control.csproj", "{6F5B2799-80D7-4158-AB9B-5B68E7C3EBC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42FDB044-376A-4B0A-B536-8B39D6B112F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42FDB044-376A-4B0A-B536-8B39D6B112F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42FDB044-376A-4B0A-B536-8B39D6B112F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42FDB044-376A-4B0A-B536-8B39D6B112F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F5B2799-80D7-4158-AB9B-5B68E7C3EBC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F5B2799-80D7-4158-AB9B-5B68E7C3EBC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F5B2799-80D7-4158-AB9B-5B68E7C3EBC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F5B2799-80D7-4158-AB9B-5B68E7C3EBC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

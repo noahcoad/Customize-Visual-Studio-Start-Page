@@ -1,0 +1,19 @@
+<TextBlock xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+<Image Source="C:\Noah\Media\Images\Wallpaper\Abstract\inner-unknown-25.jpg" Stretch="UniformToFill"/>
+<SolidColorBrush x:Key="Backing" Opacity="0.8" Color="White" />
+<Border Background="{DynamicResource Backing}" Width="330" Margin="15" Padding="15" HorizontalAlignment="Left">
+<TextBlock Text="{Binding Path=DTE.Name}" HorizontalAlignment="Center"/>
+<Button Command="{x:Static sp:VSCommands.ExecuteCommand}" CommandParameter="File.Exit">Close Visual Studio</Button>
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\Microsoft.VisualStudio.Shell.StartPage.dll
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\en\Microsoft.VisualStudio.Shell.StartPage.resources.dll
+<Button x:Name="ChooseImageButton" Click="ChooseImageButton_Click">Choose Background Image</Button>
+propdp > string > StartPageImage > MyControl
+		public static readonly DependencyProperty StartPageImageProperty =
+				DependencyProperty.Register("StartPageImage", typeof(string), typeof(MyControl), null);
+<my:MyControl x:Name="ImageController" />
+"{Binding ElementName=ImageController,Path=StartPageImage}" 
+C:\windows\web\Wallpaper\Nature
+string path = StartPageSettings.RetrieveString("ImageSource");
+if (path != null && File.Exists(path)) StartPageImage = path;
+StartPageSettings.StoreString("ImageSource", StartPageImage);
+<TextBlock Text="{Binding Path=DTE.Name}" FontSize="12" HorizontalAlignment="Center"/>
